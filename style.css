@@ -1,0 +1,36 @@
+body {
+  margin:0;
+}
+h1 {
+  border-bottom : 2px black solid;
+  font-size: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+a {
+  text-decoration: none;
+  color:black
+}
+ol {
+  border-right: 2px black solid  ;
+  margin:0;
+  width:100px;
+  padding-left: 32px;
+  padding-top: 25px;
+}
+#grid {
+  display:grid;
+  grid-template-columns: 150px 1fr;
+}
+@media(max-width:400px) {
+  #grid{
+    display: block;
+  }
+  ol{
+    border-right: none;
+  }
+  h1{
+    border-bottom:none;
+  }
+}
