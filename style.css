@@ -1,7 +1,7 @@
 body {
   margin:0;
 }
-h1 {
+#main {
   border-bottom : 2px black solid;
   font-size: 60px;
   text-align: center;
@@ -10,14 +10,16 @@ h1 {
 }
 a {
   text-decoration: none;
-  color:black
 }
-ol {
-  border-right: 2px black solid  ;
+#act {
+  border-left: 2px black solid  ;
   margin:0;
-  width:100px;
-  padding-left: 32px;
-  padding-top: 25px;
+  padding-left: 25px;
+  padding-top: 0px;
+}
+#button {
+  padding-left: 23px;
+  padding-top: 20px;
 }
 #grid {
   display:grid;
@@ -27,10 +29,10 @@ ol {
   #grid{
     display: block;
   }
-  ol{
-    border-right: none;
+  #act{
+    border-left: none;
   }
-  h1{
+  /* #main{
     border-bottom:none;
-  }
+  } */
 }
